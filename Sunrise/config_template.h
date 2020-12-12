@@ -15,7 +15,7 @@
 #if defined(ESP32)
     #define LED_PIN 23                                   //pin where the led strip is hooked up
 #else
-    #define LED_PIN 5                                    //pin where the led strip is hooked up
+    #define LED_PIN 3                                    //pin where the led strip is hooked up
 #endif
 #define NUM_LEDS 150                                     //number of LEDs in the strip
 #define BRIGHTNESS 255                                   //strip brightness 255 max
